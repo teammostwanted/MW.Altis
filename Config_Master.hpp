@@ -3,6 +3,7 @@
 
 /*
     Master settings for various features and functionality
+    Tested by gongas
 */
 class Life_Settings {
 /* Logging and Security Settings*/
