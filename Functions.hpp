@@ -67,7 +67,7 @@ class Life_Client_Core {
     {
       file = "core\paintball";
       class pb_response {};
-    }
+    };
 
     class Admin {
         file = "core\admin";

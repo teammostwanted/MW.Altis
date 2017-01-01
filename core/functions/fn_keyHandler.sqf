@@ -145,8 +145,8 @@ switch (_code) do {
                 if (!(isNil "_list")) then {
                     _house = nearestObject [(ASLtoATL (getPosASL _list)), "House"];
                     if (_house getVariable ["locked", false]) then {
-                        hint localize "STR_House_ContainerDeny";
-                        //hint parseText "<t color='##006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_ContainerDeny");
+                        //hint localize "STR_House_ContainerDeny";
+                        hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_ContainerDeny");
                     } else {
                         [_list] spawn life_fnc_openInventory;
                     };
@@ -223,12 +223,12 @@ switch (_code) do {
         if (_shift) then {
             if (soundVolume != 1) then {
                 1 fadeSound 1;
-                systemChat localize "STR_MISC_soundnormal";
-                //hint parseText "<t color='##006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_soundnormal");
+                //systemChat localize "STR_MISC_soundnormal";
+                hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_soundnormal");
             } else {
                 1 fadeSound 0.1;
-                systemChat localize "STR_MISC_soundfade";
-                //hint parseText "<t color='##006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_soundfade");
+                //systemChat localize "STR_MISC_soundfade";
+                hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_soundfade");
             };
         };
     };
@@ -261,13 +261,13 @@ switch (_code) do {
                     if (_locked isEqualTo 0) then {
                         _veh setVariable [format["bis_disabled_Door_%1",_door],1,true];
                         _veh animate [format["door_%1_rot",_door],0];
-                        systemChat localize "STR_House_Door_Lock";
-                        //hint parseText "<t color='##006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_Door_Lock");
+                        //systemChat localize "STR_House_Door_Lock";
+                        hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_Door_Lock");
                     } else {
                         _veh setVariable [format["bis_disabled_Door_%1",_door],0,true];
                         _veh animate [format["door_%1_rot",_door],1];
-                        systemChat localize "STR_House_Door_Unlock";
-                        //hint parseText "<t color='##006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_Door_Unlock");
+                        //systemChat localize "STR_House_Door_Unlock";
+                        hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_Door_Unlock");
                     };
                 };
             } else {
@@ -322,8 +322,8 @@ switch (_code) do {
                             _veh animateDoor ['DoorL_Back_Open',1];
                             _veh animateDoor ['DoorR_Back_Open ',1];
                         };
-                        systemChat localize "STR_MISC_VehUnlock";
-                        hint parseText format["<t color='##006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>%1", localize "STR_MISC_VehUnlock"];  
+                        //systemChat localize "STR_MISC_VehUnlock";
+                        hint parseText format["<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>%1", localize "STR_MISC_VehUnlock"];
                         //hint parseText "<t color='##006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_VehUnlock");
                         [_veh,"UnlockCarSound"] remoteExec ["life_fnc_say3D",RANY];
                     } else {
@@ -374,8 +374,8 @@ switch (_code) do {
                             _veh animateDoor ['DoorL_Back_Open',0];
                             _veh animateDoor ['DoorR_Back_Open ',0];
                         };
-                        systemChat localize "STR_MISC_VehLock";
-                        //hint parseText "<t color='##006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_VehLock");
+                        //systemChat localize "STR_MISC_VehLock";
+                        hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_VehLock");
                         [_veh,"LockCarSound"] remoteExec ["life_fnc_say3D",RANY];
                     };
                 };
