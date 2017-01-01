@@ -1189,7 +1189,7 @@ class CarShops {
             { "Mrshounka_twingo_p_g", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_twingo_p_v", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_twingo_p_o", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
-            { "ivory_gt500", "", 71250, { "life_donorlevel", "SCALAR", 2 } },       
+            { "ivory_gt500", "", 71250, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_subaru08_civ", "", 90000, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_subaru08_noir", "", 90000, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_subaru08_bleufonce", "", 90000, { "life_donorlevel", "SCALAR", 2 } },
@@ -1229,18 +1229,18 @@ class CarShops {
     class vip2_air {
         side = "civ";
         vehicles[] = {
-			{ "C_Heli_Light_01_civil_F", "", 187500, { "life_donorlevel", "SCALAR", 2 } },
-			{ "B_Heli_Light_01_F", "", 139500, { "life_donorlevel", "SCALAR", 2 } },
-			{ "O_Heli_Light_02_unarmed_F",  "", 157500, { "life_donorlevel", "SCALAR", 2 } },
-			{ "I_Heli_Transport_02_F",  "", 375000, { "life_donorlevel", "SCALAR", 2 } },
-			{ "B_Heli_Transport_03_unarmed_F", "", 6000000, { "life_donorlevel", "SCALAR", 2 } },
-			{ "I_C_Heli_Light_01_civil_F", "", 150000, { "life_donorlevel", "SCALAR", 2 } },
-			{ "O_Heli_Transport_04_bench_F",  "", 300000, { "life_donorlevel", "SCALAR", 2 } },
-			{ "O_Heli_Transport_04_box_F", "", 595000, { "life_donorlevel", "SCALAR", 2 } },
-			{ "O_Heli_Transport_04_covered_F", "", 337500, { "life_donorlevel", "SCALAR", 2 } },
-			{ "I_Heli_light_03_unarmed_F", "", 562500, { "life_donorlevel", "SCALAR", 2 } },
-			{ "B_T_VTOL_01_infantry_F", "", 15000000, { "life_donorlevel", "SCALAR", 2 } },
-			{ "B_T_VTOL_01_vehicle_F", "", 15000000, { "life_donorlevel", "SCALAR", 2 } }
+			      { "C_Heli_Light_01_civil_F", "", 187500, { "life_donorlevel", "SCALAR", 2 } },
+			      { "B_Heli_Light_01_F", "", 139500, { "life_donorlevel", "SCALAR", 2 } },
+			      { "O_Heli_Light_02_unarmed_F",  "", 157500, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "I_Heli_Transport_02_F",  "", 375000, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "B_Heli_Transport_03_unarmed_F", "", 6000000, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "I_C_Heli_Light_01_civil_F", "", 150000, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "O_Heli_Transport_04_bench_F",  "", 300000, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "O_Heli_Transport_04_box_F", "", 595000, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "O_Heli_Transport_04_covered_F", "", 337500, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "I_Heli_light_03_unarmed_F", "", 562500, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "B_T_VTOL_01_infantry_F", "", 15000000, { "life_donorlevel", "SCALAR", 2 } },
+		      	{ "B_T_VTOL_01_vehicle_F", "", 15000000, { "life_donorlevel", "SCALAR", 2 } }
         };
     };
 
