@@ -1,0 +1,1 @@
+/* menuCheck needs to be disabled for infiSTAR AdminTools */
