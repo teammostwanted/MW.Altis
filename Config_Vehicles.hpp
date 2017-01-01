@@ -381,12 +381,6 @@ class CarShops {
             { "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
             { "C_Plane_Civil_01_racing_F", {"", "", -1} },
             { "C_Plane_Civil_01_F", {"", "", -1} }
-            //{ "GR_AW101_1", { "", "", -1 } },
-            //{ "GR_Bell412_3", { "", "", -1 } },
-            //{ "GR_Bell412_2", { "", "", -1 } },
-          //  { "GR_UH1H_6", { "", "", -1 } },
-          //  { "GR_UH1N_1", { "", "", -1 } },
-            //{ "GR_UH1N_2", { "", "", -1 } }
         };
     };
 
@@ -408,7 +402,6 @@ class CarShops {
             { "B_G_Offroad_01_F", { "", "", -1 } },
             { "O_MRAP_02_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
-            //{ "B_G_Offroad_01_armed_F", { "", "", -1 } },
             { "O_T_LSV_02_unarmed_F", { "", "", -1 } },
             { "MG_Honda_Civic_TypeR_04_Whitecamo", { "", "", -1 } },
             { "MG_Honda_Civic_TypeR_04_Greencamo", { "", "", -1 } }
@@ -436,8 +429,6 @@ class CarShops {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "GR_Bell412_1", { "", "", -1 } }
-            //{ "GR_UH1H_4", { "", "", -1 } },
-            //{ "", { "", "", -1 } },
         };
     };
 
@@ -447,19 +438,15 @@ class CarShops {
             { "C_SUV_01_F", { "life_coplevel", "SCALAR", 1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
             { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
-            { "icen_bugatti_policiaptone", { "life_coplevel", "SCALAR", 6 } },
+            { "icen_bugatti_policiaptone", { "life_coplevel", "SCALAR", 4 } },
             { "icen_rs4_policiaptone", { "life_coplevel", "SCALAR", 4 } },
             { "icen_mp4_policiaptone", { "life_coplevel", "SCALAR", 4 } },
             { "icen_evox_policiaptone", { "life_coplevel", "SCALAR", 2 } },
             { "icen_evox_policiaptwo", { "life_coplevel", "SCALAR", 2 } },
             { "zorak_bmw_m5_police", { "life_coplevel", "SCALAR", 2 } },
             { "shounka_a3_brinks_noir", { "life_coplevel", "SCALAR", 7 } },
-            { "zorak_bugatti_chiron_police", { "life_coplevel", "SCALAR", 2 } },
             { "Urbanized_CTSV_UC1", { "life_coplevel", "SCALAR", 5 } },
             { "cg_ducati_pol_reg", { "life_coplevel", "SCALAR", 2 } },
-            { "Urbanized_458Ferrari_black", { "life_coplevel", "SCALAR", 6 } },
-            { "zorak_ford_focus_rs_police", { "life_coplevel", "SCALAR", 2 } },
-            { "Mrshounka_veneno_c", { "life_coplevel", "SCALAR", 6 } },
             { "ivory_isf_marked", { "life_coplevel", "SCALAR", 2 } },
             { "ivory_isf_unmarked", { "life_coplevel", "SCALAR", 2 } },
             { "Urbanized_G65_UC1", { "life_coplevel", "SCALAR", 5 } },
@@ -477,11 +464,6 @@ class CarShops {
             { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 1 } },
             { "GIGN_heli", { "life_coplevel", "SCALAR", 5 } },
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } }
-            //{ "GR_UH1D_1", { "life_coplevel", "SCALAR", 2 } },
-            //{ "GR_UH1H_3", { "life_coplevel", "SCALAR", 2 } },
-            //{ "", { "", "", -1 } },
-            //{ "", { "", "", -1 } },
-            //{ "", { "", "", -1 } },
         };
     };
 
@@ -505,7 +487,6 @@ class CarShops {
     class vip1_cars {
         side = "civ";
         vehicles[] = {
-            //Exemplo: { " aqui é o id do veiculo ", "", 2000, { "life_donorlevel", "SCALAR", 1 } }, 1 = VIP TIER 1
             { "B_Quadbike_01_F", "", 21675, { "life_donorlevel", "SCALAR", 1 } },
             { "C_Hatchback_01_F", "", 31875, { "life_donorlevel", "SCALAR", 1 } },
             { "C_SUV_01_F", "", 17638, { "life_donorlevel", "SCALAR", 1 } },
@@ -712,8 +693,6 @@ class CarShops {
             { "Urbanized_GranTurismo_yellow", "", 93500, { "life_donorlevel", "SCALAR", 1 } },
             { "Urbanized_GranTurismo_Lime", "", 93500, { "life_donorlevel", "SCALAR", 1 } },
             { "Jonzie_Quattroporte", "", 85000, { "life_donorlevel", "SCALAR", 1 } },
-            //{ "C_Offroad_02_unarmed_F", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
-            //{ "I_C_Offroad_02_unarmed_F", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
             { "ivory_f1", "", 170000, { "life_donorlevel", "SCALAR", 1 } },
             { "ivory_mp4", "", 425000, { "life_donorlevel", "SCALAR", 1 } },
             { "ivory_190e", "", 170000, { "life_donorlevel", "SCALAR", 1 } },
@@ -810,9 +789,6 @@ class CarShops {
             { "Mrshounka_twingo_p_v", "", 85000, { "life_donorlevel", "SCALAR", 1 } },
             { "Mrshounka_twingo_p_o", "", 85000, { "life_donorlevel", "SCALAR", 1 } },
             { "ivory_gt500", "", 80750, { "life_donorlevel", "SCALAR", 1 } },
-            //{ "Mrshounka_a3_smart_civ", "", 76500, { "life_donorlevel", "SCALAR", 1 } },
-            //{ "Mrshounka_a3_smart_civ_noir", "", 76500, { "life_donorlevel", "SCALAR", 1 } },
-            //{ "Mrshounka_a3_smart_civ_bleu", "", 76500, { "life_donorlevel", "SCALAR", 1 } },
             { "Mrshounka_subaru08_civ", "", 102000, { "life_donorlevel", "SCALAR", 1 } },
             { "Mrshounka_subaru08_noir", "", 102000, { "life_donorlevel", "SCALAR", 1 } },
             { "Mrshounka_subaru08_bleufonce", "", 102000, { "life_donorlevel", "SCALAR", 1 } },
@@ -864,43 +840,36 @@ class CarShops {
             { "I_Heli_light_03_unarmed_F", "", 637500, { "life_donorlevel", "SCALAR", 1 } },
             { "B_T_VTOL_01_infantry_F", "", 17000000, { "life_donorlevel", "SCALAR", 1 } },
             { "B_T_VTOL_01_vehicle_F", "", 17000000, { "life_donorlevel", "SCALAR", 1 } }
-            //{ "GR_AW101_1", "", 425000, { "life_donorlevel", "SCALAR", 1 } },
-            //{ "GR_Bell412_3", "", 212500, { "life_donorlevel", "SCALAR", 1 } },
-          //{ "GR_Bell412_2", "", 212500, { "life_donorlevel", "SCALAR", 1 } },
-          //  { "GR_UH1H_6", "", 212500, { "life_donorlevel", "SCALAR", 1 } },
-          //  { "GR_UH1N_1", "", 212500, { "life_donorlevel", "SCALAR", 1 } },
-          //  { "GR_UH1N_2", "", 212500, { "life_donorlevel", "SCALAR", 1 } }
         };
     };
 
     class vip1_truck {
         side = "civ";
         vehicles[] = {
-              { "C_Van_01_box_F", "", 85000, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ_noir", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ_bleufonce", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ_rouge", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ_jaune", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ_rose", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ_grise", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ_violet", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "shounka_a3_spr_civ_orange", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
-              { "I_Truck_02_transport_F", "", 106250, { "life_donorlevel", "SCALAR", 1 } },
-              { "I_Truck_02_covered_F", "", 153000, { "life_donorlevel", "SCALAR", 1 } },
-              { "B_Truck_01_transport_F", "", 680000, { "life_donorlevel", "SCALAR", 1 } },
-              { "O_Truck_03_transport_F", "", 850000, { "life_donorlevel", "SCALAR", 1 } },
-              { "O_Truck_03_covered_F", "", 1402500, { "life_donorlevel", "SCALAR", 1 } },
-              { "B_Truck_01_box_F", "", 3400000, { "life_donorlevel", "SCALAR", 1 } },
-              { "O_Truck_03_device_F", "", 3867925, { "life_donorlevel", "SCALAR", 1 } },
-              { "C_Van_01_fuel_F", "", 119000, { "life_donorlevel", "SCALAR", 1 } },
-              { "I_Truck_02_fuel_F", "", 204000, { "life_donorlevel", "SCALAR", 1 } },
-              { "B_Truck_01_fuel_F", "", 637500, { "life_donorlevel", "SCALAR", 1 } },
-              //{ "shouka_a3_renaultmagnum_f", "", 128172, { "life_donorlevel", "SCALAR", 1 } },
-              { "Jonzie_Western", "", 1700000, { "life_donorlevel", "SCALAR", 1 } },
-              { "jonzie_box_truck", "", 2337925, { "life_donorlevel", "SCALAR", 1 } },
-              { "Jonzie_Curtain_Roadtrain", "", 4250000, { "life_donorlevel", "SCALAR", 1 } },
-              { "Jonzie_Curtain", "", 4675000, { "life_donorlevel", "SCALAR", 1 } }
+            { "C_Van_01_box_F", "", 85000, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ_noir", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ_bleufonce", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ_rouge", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ_jaune", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ_rose", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ_grise", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ_violet", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "shounka_a3_spr_civ_orange", "", 234196, { "life_donorlevel", "SCALAR", 1 } },
+            { "I_Truck_02_transport_F", "", 106250, { "life_donorlevel", "SCALAR", 1 } },
+            { "I_Truck_02_covered_F", "", 153000, { "life_donorlevel", "SCALAR", 1 } },
+            { "B_Truck_01_transport_F", "", 680000, { "life_donorlevel", "SCALAR", 1 } },
+            { "O_Truck_03_transport_F", "", 850000, { "life_donorlevel", "SCALAR", 1 } },
+            { "O_Truck_03_covered_F", "", 1402500, { "life_donorlevel", "SCALAR", 1 } },
+            { "B_Truck_01_box_F", "", 3400000, { "life_donorlevel", "SCALAR", 1 } },
+            { "O_Truck_03_device_F", "", 3867925, { "life_donorlevel", "SCALAR", 1 } },
+            { "C_Van_01_fuel_F", "", 119000, { "life_donorlevel", "SCALAR", 1 } },
+            { "I_Truck_02_fuel_F", "", 204000, { "life_donorlevel", "SCALAR", 1 } },
+            { "B_Truck_01_fuel_F", "", 637500, { "life_donorlevel", "SCALAR", 1 } },
+            { "Jonzie_Western", "", 1700000, { "life_donorlevel", "SCALAR", 1 } },
+            { "jonzie_box_truck", "", 2337925, { "life_donorlevel", "SCALAR", 1 } },
+            { "Jonzie_Curtain_Roadtrain", "", 4250000, { "life_donorlevel", "SCALAR", 1 } },
+            { "Jonzie_Curtain", "", 4675000, { "life_donorlevel", "SCALAR", 1 } }
         };
     };
 
@@ -918,7 +887,6 @@ class CarShops {
     class vip2_cars {
         side = "civ";
         vehicles[] = {
-            //Exemplo: { " aqui é o id do veiculo ", "", 2000, { "life_donorlevel", "SCALAR", 2 } }, 2 = VIP TIER 2
             { "B_Quadbike_01_F", "", 19125, { "life_donorlevel", "SCALAR", 2 } },
             { "C_Hatchback_01_F", "", 28125, { "life_donorlevel", "SCALAR", 2 } },
             { "C_SUV_01_F", "", 15563, { "life_donorlevel", "SCALAR", 2 } },
@@ -1125,8 +1093,6 @@ class CarShops {
             { "Urbanized_GranTurismo_yellow", "", 82500, { "life_donorlevel", "SCALAR", 2 } },
             { "Urbanized_GranTurismo_Lime", "", 82500, { "life_donorlevel", "SCALAR", 2 } },
             { "Jonzie_Quattroporte", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
-            //{ "C_Offroad_02_unarmed_F", "", 2000, { "life_donorlevel", "SCALAR", 2 } },
-            //{ "I_C_Offroad_02_unarmed_F", "", 2000, { "life_donorlevel", "SCALAR", 2 } },
             { "ivory_f1", "", 150000, { "life_donorlevel", "SCALAR", 2 } },
             { "ivory_mp4", "", 375000, { "life_donorlevel", "SCALAR", 2 } },
             { "ivory_190e", "", 150000, { "life_donorlevel", "SCALAR", 2 } },
@@ -1223,10 +1189,7 @@ class CarShops {
             { "Mrshounka_twingo_p_g", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_twingo_p_v", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_twingo_p_o", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
-            { "ivory_gt500", "", 71250, { "life_donorlevel", "SCALAR", 2 } },
-            //{ "Mrshounka_a3_smart_civ", "", 67500, { "life_donorlevel", "SCALAR", 2 } },
-            //{ "Mrshounka_a3_smart_civ_noir", "", 67500, { "life_donorlevel", "SCALAR", 2 } },
-            //{ "Mrshounka_a3_smart_civ_bleu", "", 67500, { "life_donorlevel", "SCALAR", 2 } },
+            { "ivory_gt500", "", 71250, { "life_donorlevel", "SCALAR", 2 } },       
             { "Mrshounka_subaru08_civ", "", 90000, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_subaru08_noir", "", 90000, { "life_donorlevel", "SCALAR", 2 } },
             { "Mrshounka_subaru08_bleufonce", "", 90000, { "life_donorlevel", "SCALAR", 2 } },
@@ -1266,55 +1229,48 @@ class CarShops {
     class vip2_air {
         side = "civ";
         vehicles[] = {
-          { "C_Heli_Light_01_civil_F", "", 187500, { "life_donorlevel", "SCALAR", 2 } },
-          { "B_Heli_Light_01_F", "", 139500, { "life_donorlevel", "SCALAR", 2 } },
-          { "O_Heli_Light_02_unarmed_F",  "", 157500, { "life_donorlevel", "SCALAR", 2 } },
-          { "I_Heli_Transport_02_F",  "", 375000, { "life_donorlevel", "SCALAR", 2 } },
-          { "B_Heli_Transport_03_unarmed_F", "", 6000000, { "life_donorlevel", "SCALAR", 2 } },
-          { "I_C_Heli_Light_01_civil_F", "", 150000, { "life_donorlevel", "SCALAR", 2 } },
-          { "O_Heli_Transport_04_bench_F",  "", 300000, { "life_donorlevel", "SCALAR", 2 } },
-          { "O_Heli_Transport_04_box_F", "", 595000, { "life_donorlevel", "SCALAR", 2 } },
-          { "O_Heli_Transport_04_covered_F", "", 337500, { "life_donorlevel", "SCALAR", 2 } },
-          { "I_Heli_light_03_unarmed_F", "", 562500, { "life_donorlevel", "SCALAR", 2 } },
-          { "B_T_VTOL_01_infantry_F", "", 15000000, { "life_donorlevel", "SCALAR", 2 } },
-          { "B_T_VTOL_01_vehicle_F", "", 15000000, { "life_donorlevel", "SCALAR", 2 } }
-          //{ "GR_AW101_1", "", 375000, { "life_donorlevel", "SCALAR", 2 } },
-        //  { "GR_Bell412_3", "", 187500, { "life_donorlevel", "SCALAR", 2 } },
-        //  { "GR_Bell412_2", "", 187500, { "life_donorlevel", "SCALAR", 2 } },
-        //  { "GR_UH1H_6", "", 187500, { "life_donorlevel", "SCALAR", 2 } },
-      //    { "GR_UH1N_1", "", 187500, { "life_donorlevel", "SCALAR", 2 } },
-      //    { "GR_UH1N_2", "", 187500, { "life_donorlevel", "SCALAR", 2 } }
+			{ "C_Heli_Light_01_civil_F", "", 187500, { "life_donorlevel", "SCALAR", 2 } },
+			{ "B_Heli_Light_01_F", "", 139500, { "life_donorlevel", "SCALAR", 2 } },
+			{ "O_Heli_Light_02_unarmed_F",  "", 157500, { "life_donorlevel", "SCALAR", 2 } },
+			{ "I_Heli_Transport_02_F",  "", 375000, { "life_donorlevel", "SCALAR", 2 } },
+			{ "B_Heli_Transport_03_unarmed_F", "", 6000000, { "life_donorlevel", "SCALAR", 2 } },
+			{ "I_C_Heli_Light_01_civil_F", "", 150000, { "life_donorlevel", "SCALAR", 2 } },
+			{ "O_Heli_Transport_04_bench_F",  "", 300000, { "life_donorlevel", "SCALAR", 2 } },
+			{ "O_Heli_Transport_04_box_F", "", 595000, { "life_donorlevel", "SCALAR", 2 } },
+			{ "O_Heli_Transport_04_covered_F", "", 337500, { "life_donorlevel", "SCALAR", 2 } },
+			{ "I_Heli_light_03_unarmed_F", "", 562500, { "life_donorlevel", "SCALAR", 2 } },
+			{ "B_T_VTOL_01_infantry_F", "", 15000000, { "life_donorlevel", "SCALAR", 2 } },
+			{ "B_T_VTOL_01_vehicle_F", "", 15000000, { "life_donorlevel", "SCALAR", 2 } }
         };
     };
 
     class vip2_truck {
         side = "civ";
         vehicles[] = {
-             { "C_Van_01_box_F", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ_noir", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ_bleufonce", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ_rouge", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ_jaune", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ_rose", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ_grise", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ_violet", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "shounka_a3_spr_civ_orange", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
-             { "I_Truck_02_transport_F", "", 93750, { "life_donorlevel", "SCALAR", 2 } },
-             { "I_Truck_02_covered_F", "", 135000, { "life_donorlevel", "SCALAR", 2 } },
-             { "B_Truck_01_transport_F", "", 600000, { "life_donorlevel", "SCALAR", 2 } },
-             { "O_Truck_03_transport_F", "", 750000, { "life_donorlevel", "SCALAR", 2 } },
-             { "O_Truck_03_covered_F", "", 237500, { "life_donorlevel", "SCALAR", 2 } },
-             { "B_Truck_01_box_F", "", 3000000, { "life_donorlevel", "SCALAR", 2 } },
-             { "O_Truck_03_device_F", "", 3412875, { "life_donorlevel", "SCALAR", 2 } },
-             { "C_Van_01_fuel_F", "", 105000, { "life_donorlevel", "SCALAR", 2 } },
-             { "I_Truck_02_fuel_F", "", 180000, { "life_donorlevel", "SCALAR", 2 } },
-             { "B_Truck_01_fuel_F", "", 562500, { "life_donorlevel", "SCALAR", 2 } },
-             //{ "shouka_a3_renaultmagnum_f", "", 113093, { "life_donorlevel", "SCALAR", 2 } },
-             { "Jonzie_Western", "", 1500000, { "life_donorlevel", "SCALAR", 2 } },
-             { "jonzie_box_truck", "", 2062875, { "life_donorlevel", "SCALAR", 2 } },
-             { "Jonzie_Curtain_Roadtrain", "", 3750000, { "life_donorlevel", "SCALAR", 2 } },
-             { "Jonzie_Curtain", "", 4125000, { "life_donorlevel", "SCALAR", 2 } }
+            { "C_Van_01_box_F", "", 75000, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ_noir", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ_bleufonce", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ_rouge", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ_jaune", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ_rose", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ_grise", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ_violet", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "shounka_a3_spr_civ_orange", "", 206644, { "life_donorlevel", "SCALAR", 2 } },
+            { "I_Truck_02_transport_F", "", 93750, { "life_donorlevel", "SCALAR", 2 } },
+            { "I_Truck_02_covered_F", "", 135000, { "life_donorlevel", "SCALAR", 2 } },
+            { "B_Truck_01_transport_F", "", 600000, { "life_donorlevel", "SCALAR", 2 } },
+            { "O_Truck_03_transport_F", "", 750000, { "life_donorlevel", "SCALAR", 2 } },
+            { "O_Truck_03_covered_F", "", 237500, { "life_donorlevel", "SCALAR", 2 } },
+            { "B_Truck_01_box_F", "", 3000000, { "life_donorlevel", "SCALAR", 2 } },
+            { "O_Truck_03_device_F", "", 3412875, { "life_donorlevel", "SCALAR", 2 } },
+            { "C_Van_01_fuel_F", "", 105000, { "life_donorlevel", "SCALAR", 2 } },
+            { "I_Truck_02_fuel_F", "", 180000, { "life_donorlevel", "SCALAR", 2 } },
+            { "B_Truck_01_fuel_F", "", 562500, { "life_donorlevel", "SCALAR", 2 } },
+            { "Jonzie_Western", "", 1500000, { "life_donorlevel", "SCALAR", 2 } },
+            { "jonzie_box_truck", "", 2062875, { "life_donorlevel", "SCALAR", 2 } },
+            { "Jonzie_Curtain_Roadtrain", "", 3750000, { "life_donorlevel", "SCALAR", 2 } },
+            { "Jonzie_Curtain", "", 4125000, { "life_donorlevel", "SCALAR", 2 } }
         };
     };
 
@@ -1332,7 +1288,6 @@ class CarShops {
     class vip3_cars {
         side = "civ";
         vehicles[] = {
-            //Exemplo: { " aqui é o id do veiculo ", "", 2000, { "life_donorlevel", "SCALAR", 3 } }, 3 = VIP TIER 3
             { "B_Quadbike_01_F", "", 12750, { "life_donorlevel", "SCALAR", 3 } },
             { "C_Hatchback_01_F", "", 1875, { "life_donorlevel", "SCALAR", 3 } },
             { "C_SUV_01_F", "", 10375, { "life_donorlevel", "SCALAR", 3 } },
@@ -1539,8 +1494,6 @@ class CarShops {
             { "Urbanized_GranTurismo_yellow", "", 55000, { "life_donorlevel", "SCALAR", 3 } },
             { "Urbanized_GranTurismo_Lime", "", 55000, { "life_donorlevel", "SCALAR", 3 } },
             { "Jonzie_Quattroporte", "", 50000, { "life_donorlevel", "SCALAR", 3 } },
-            //{ "C_Offroad_02_unarmed_F", "", 2000, { "life_donorlevel", "SCALAR", 3 } },
-            //{ "I_C_Offroad_02_unarmed_F", "", 2000, { "life_donorlevel", "SCALAR", 3 } },
             { "ivory_f1", "", 100000, { "life_donorlevel", "SCALAR", 3 } },
             { "ivory_mp4", "", 250000, { "life_donorlevel", "SCALAR", 3 } },
             { "ivory_190e", "", 100000, { "life_donorlevel", "SCALAR", 3 } },
@@ -1638,9 +1591,6 @@ class CarShops {
             { "Mrshounka_twingo_p_v", "", 50000, { "life_donorlevel", "SCALAR", 3 } },
             { "Mrshounka_twingo_p_o", "", 50000, { "life_donorlevel", "SCALAR", 3 } },
             { "ivory_gt500", "", 47500, { "life_donorlevel", "SCALAR", 3 } },
-            //{ "Mrshounka_a3_smart_civ", "", 45000, { "life_donorlevel", "SCALAR", 3 } },
-            //{ "Mrshounka_a3_smart_civ_noir", "", 45000, { "life_donorlevel", "SCALAR", 3 } },
-            //{ "Mrshounka_a3_smart_civ_bleu", "", 45000, { "life_donorlevel", "SCALAR", 3 } },
             { "Mrshounka_subaru08_civ", "", 60000, { "life_donorlevel", "SCALAR", 3 } },
             { "Mrshounka_subaru08_noir", "", 60000, { "life_donorlevel", "SCALAR", 3 } },
             { "Mrshounka_subaru08_bleufonce", "", 60000, { "life_donorlevel", "SCALAR", 3 } },
@@ -1692,43 +1642,36 @@ class CarShops {
             { "I_Heli_light_03_unarmed_F", "", 375000, { "life_donorlevel", "SCALAR", 3 } },
             { "B_T_VTOL_01_infantry_F", "", 10000000, { "life_donorlevel", "SCALAR", 3 } },
             { "B_T_VTOL_01_vehicle_F", "", 10000000, { "life_donorlevel", "SCALAR", 3 } }
-          //  { "GR_AW101_1", "", 250000, { "life_donorlevel", "SCALAR", 3 } },
-          //  { "GR_Bell412_3", "", 125000, { "life_donorlevel", "SCALAR", 3 } },
-          //  { "GR_Bell412_2", "", 125000, { "life_donorlevel", "SCALAR", 3 } },
-          //  { "GR_UH1H_6", "", 125000, { "life_donorlevel", "SCALAR", 3 } },
-          //  { "GR_UH1N_1", "", 125000, { "life_donorlevel", "SCALAR", 3 } },
-          //  { "GR_UH1N_2", "", 125000, { "life_donorlevel", "SCALAR", 3 } }
         };
     };
 
     class vip3_truck {
         side = "civ";
         vehicles[] = {
-             { "C_Van_01_box_F", "", 5000, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ_noir", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ_bleufonce", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ_rouge", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ_jaune", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ_rose", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ_grise", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ_violet", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "shounka_a3_spr_civ_orange", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
-             { "I_Truck_02_transport_F", "", 62500, { "life_donorlevel", "SCALAR", 3 } },
-             { "I_Truck_02_covered_F", "", 90000, { "life_donorlevel", "SCALAR", 3 } },
-             { "B_Truck_01_transport_F", "", 400000, { "life_donorlevel", "SCALAR", 3 } },
-             { "O_Truck_03_transport_F", "", 500000, { "life_donorlevel", "SCALAR", 3 } },
-             { "O_Truck_03_covered_F", "", 825000, { "life_donorlevel", "SCALAR", 3 } },
-             { "B_Truck_01_box_F", "", 2000000, { "life_donorlevel", "SCALAR", 3 } },
-             { "O_Truck_03_device_F", "", 2275250, { "life_donorlevel", "SCALAR", 3 } },
-             { "C_Van_01_fuel_F", "", 70000, { "life_donorlevel", "SCALAR", 3 } },
-             { "I_Truck_02_fuel_F", "", 120000, { "life_donorlevel", "SCALAR", 3 } },
-             { "B_Truck_01_fuel_F", "", 375000, { "life_donorlevel", "SCALAR", 3 } },
-             //{ "shouka_a3_renaultmagnum_f", "", 75395, { "life_donorlevel", "SCALAR", 3 } },
-             { "Jonzie_Western", "", 1000000, { "life_donorlevel", "SCALAR", 3 } },
-             { "jonzie_box_truck", "", 1375250, { "life_donorlevel", "SCALAR", 3 } },
-             { "Jonzie_Curtain_Roadtrain", "", 2500000, { "life_donorlevel", "SCALAR", 3 } },
-             { "Jonzie_Curtain", "", 2750000, { "life_donorlevel", "SCALAR", 3 } }
+            { "C_Van_01_box_F", "", 5000, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ_noir", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ_bleufonce", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ_rouge", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ_jaune", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ_rose", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ_grise", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ_violet", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "shounka_a3_spr_civ_orange", "", 137763, { "life_donorlevel", "SCALAR", 3 } },
+            { "I_Truck_02_transport_F", "", 62500, { "life_donorlevel", "SCALAR", 3 } },
+            { "I_Truck_02_covered_F", "", 90000, { "life_donorlevel", "SCALAR", 3 } },
+            { "B_Truck_01_transport_F", "", 400000, { "life_donorlevel", "SCALAR", 3 } },
+            { "O_Truck_03_transport_F", "", 500000, { "life_donorlevel", "SCALAR", 3 } },
+            { "O_Truck_03_covered_F", "", 825000, { "life_donorlevel", "SCALAR", 3 } },
+            { "B_Truck_01_box_F", "", 2000000, { "life_donorlevel", "SCALAR", 3 } },
+            { "O_Truck_03_device_F", "", 2275250, { "life_donorlevel", "SCALAR", 3 } },
+            { "C_Van_01_fuel_F", "", 70000, { "life_donorlevel", "SCALAR", 3 } },
+            { "I_Truck_02_fuel_F", "", 120000, { "life_donorlevel", "SCALAR", 3 } },
+            { "B_Truck_01_fuel_F", "", 375000, { "life_donorlevel", "SCALAR", 3 } },
+            { "Jonzie_Western", "", 1000000, { "life_donorlevel", "SCALAR", 3 } },
+            { "jonzie_box_truck", "", 1375250, { "life_donorlevel", "SCALAR", 3 } },
+            { "Jonzie_Curtain_Roadtrain", "", 2500000, { "life_donorlevel", "SCALAR", 3 } },
+            { "Jonzie_Curtain", "", 2750000, { "life_donorlevel", "SCALAR", 3 } }
         };
     };
 
