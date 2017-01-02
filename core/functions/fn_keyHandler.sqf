@@ -146,7 +146,8 @@ switch (_code) do {
                     _house = nearestObject [(ASLtoATL (getPosASL _list)), "House"];
                     if (_house getVariable ["locked", false]) then {
                         //hint localize "STR_House_ContainerDeny";
-                        hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_ContainerDeny");
+                        //hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_ContainerDeny");
+                        hint parseText format["<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>%1", localize "STR_House_ContainerDeny"];
                     } else {
                         [_list] spawn life_fnc_openInventory;
                     };
@@ -224,11 +225,13 @@ switch (_code) do {
             if (soundVolume != 1) then {
                 1 fadeSound 1;
                 //systemChat localize "STR_MISC_soundnormal";
-                hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_soundnormal");
+                //hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_soundnormal");
+                hint parseText format["<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>%1", localize "STR_MISC_soundnormal"];
             } else {
                 1 fadeSound 0.1;
                 //systemChat localize "STR_MISC_soundfade";
-                hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_soundfade");
+                //hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_soundfade");
+                hint parseText format["<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>%1", localize "STR_MISC_soundfade"];
             };
         };
     };
@@ -243,6 +246,42 @@ switch (_code) do {
         
    	};
 
+	case 62:
+	{
+        if(_alt && !_shift) then {
+            diag_log format ["SERVER: %1 usou ALT+F4 para desconectar (e por isso perdeu todos os itens do corpo e dinheiro da mão)",player getVariable["realname",name _player]];
+            [[1,format["SERVER: %1 usou ALT+F4 para desconectar (e por isso perdeu todos os itens do corpo e dinheiro da mão)",player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+            removeAllContainers player;
+            removeUniform player;
+            removeBackpack player;
+            removeVest player;
+            removeHeadgear player;
+            player removeWeapon (primaryWeapon player);
+            player removeWeapon (handGunWeapon player);
+            removeAllWeapons player;
+        };
+	};
+	case 211:
+    {
+        if(_ctrlKey && _alt)  then {
+            diag_log format ["SERVER: %1 usou CTRL + ALT + DEL para provávelmente desconectar (reporta aos Administradores)",_player getVariable["realname",name _player]];
+           [[1,format["SERVER: %1 usou CTRL + ALT + DEL  para provávelmente desconectar (reporta aos Administradores)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+        };
+    };
+    case 15:
+    {
+        if( _alt)  then {
+            diag_log format ["SERVER DIZ: %1 usou ALT + TAB  ppara provávelmente desconectar (reporta aos Administradores)",_player getVariable["realname",name _player]];
+           [[1,format["SERVER DIZ: %1 usou ALT + TAB  para provávelmente desconectar (reporta aos Administradores)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+        };
+    };
+    case 1:
+    {
+        if( _ctrlKey )  then {
+           diag_log format ["SERVER DIZ: %1 usou CTRL + ESC para provávelmente desconectar (reporta aos Administradores)",_player getVariable["realname",name _player]];
+           [[1,format["SERVER DIZ: %1 usou CTRL + ESC para provávelmente desconectar (reporta aos Administradores)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+        };
+    };
     //U Key
     case 22: {
         if (!_alt && !_ctrlKey) then {
@@ -262,12 +301,14 @@ switch (_code) do {
                         _veh setVariable [format["bis_disabled_Door_%1",_door],1,true];
                         _veh animate [format["door_%1_rot",_door],0];
                         //systemChat localize "STR_House_Door_Lock";
-                        hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_Door_Lock");
+                        hint parseText format["<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>%1", localize "STR_House_Door_Lock"];
+                        //hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_Door_Lock");
                     } else {
                         _veh setVariable [format["bis_disabled_Door_%1",_door],0,true];
                         _veh animate [format["door_%1_rot",_door],1];
                         //systemChat localize "STR_House_Door_Unlock";
-                        hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_Door_Unlock");
+                        hint parseText format["<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>%1", localize "STR_House_Door_Unlock"];
+                        //hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_House_Door_Unlock");
                     };
                 };
             } else {
@@ -375,7 +416,7 @@ switch (_code) do {
                             _veh animateDoor ['DoorR_Back_Open ',0];
                         };
                         //systemChat localize "STR_MISC_VehLock";
-                        hint parseText "<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>"+(localize "STR_MISC_VehLock");
+                        hint parseText format["<t color='#006699'><t size='2'>Servidor</t></t><br/><t color='#FFD700'><t size='1.0'>Aviso</t></t><br/>%1", localize "STR_MISC_VehLock"];
                         [_veh,"LockCarSound"] remoteExec ["life_fnc_say3D",RANY];
                     };
                 };

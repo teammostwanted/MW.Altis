@@ -3085,7 +3085,7 @@ class WeaponShops {
             { "10Rnd_93x64_DMR_05_Mag", "", 25 },
             { "R3F_20Rnd_762x51_HK417", "", 25 },
             { "7Rnd_408_Mag", "", 25 },
-            { "U_C_Poloshirt_salmon", "", 200 },
+            { "U_C_Poloshirt_salmon", "", 200 }
         };
         accs[] = {
              //MIRAS
