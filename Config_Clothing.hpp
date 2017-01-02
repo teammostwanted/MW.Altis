@@ -150,15 +150,7 @@ class Clothing {
             { "G_Combat", "", 10000, { "", "", -1 } },
             { "G_Lady_Mirror", "", 10000, { "", "", -1 } },
             { "G_Lady_Dark", "", 10000, { "", "", -1 } },
-            { "G_Lady_Blue", "", 10000, { "", "", -1 } },
-            { "TRYK_balaclava_BLACK_NV", "", 65000, { "", "", -1 } },
-            { "TRYK_balaclava_NV", "", 65000, { "", "", -1 } },
-            { "TRYK_balaclava_BLACK_EAR_NV", "", 65000, { "", "", -1 } },
-            { "TRYK_balaclava_EAR_NV", "", 65000, { "", "", -1 } },
-            { "TRYK_G_bala_ess_NV", "", 65000, { "", "", -1 } },
-            { "TRYK_US_ESS_Glasses_NV", "", 65000, { "", "", -1 } },
-            { "TRYK_ESS_BLKTAN_NV", "", 65000, { "", "", -1 } },
-            { "TRYK_US_ESS_Glasses_TAN_NV", "", 65000, { "", "", -1 } }
+            { "G_Lady_Blue", "", 10000, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -262,17 +254,7 @@ class Clothing {
             { "G_Balaclava_TI_blk_F", "", 200, { "", "", -1 } },
             { "G_Spectacles", "", 200, { "", "", -1 } },
             { "G_Aviator", "", 200, { "", "", -1 } },
-            { "TRYK_Headset_NV", "", 20000, { "", "", -1 } },
-            { "G_Spectacles_Tinted", "", 200, { "", "", -1 } },
-            { "TRYK_balaclava_BLACK_NV", "", 20000, { "", "", -1 } },
-            { "TRYK_balaclava_NV", "", 20000, { "", "", -1 } },
-            { "TRYK_balaclava_BLACK_EAR_NV", "", 20000, { "", "", -1 } },
-            { "TRYK_balaclava_EAR_NV", "", 20000, { "", "", -1 } },
-            { "TRYK_G_bala_ess_NV", "", 20000, { "", "", -1 } },
-            { "TRYK_US_ESS_Glasses_NV", "", 20000, { "", "", -1 } },
-            { "TRYK_ESS_BLKTAN_NV", "", 20000, { "", "", -1 } },
-            { "TRYK_US_ESS_Glasses_TAN_NV", "", 20000, { "", "", -1 } }
-
+            { "G_Spectacles_Tinted", "", 200, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -509,15 +491,7 @@ class Clothing {
             { "G_Combat", "", 8500, { "life_donorlevel", "SCALAR", 1 } },
             { "G_Lady_Mirror", "", 8500, { "life_donorlevel", "SCALAR", 1 } },
             { "G_Lady_Dark", "", 8500, { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Lady_Blue", "", 8500, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_balaclava_BLACK_NV", "", 55250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_balaclava_NV", "", 55250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_balaclava_BLACK_EAR_NV", "", 55250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_balaclava_EAR_NV", "", 55250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_G_bala_ess_NV", "", 55250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_US_ESS_Glasses_NV", "", 55250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_ESS_BLKTAN_NV", "", 55250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_US_ESS_Glasses_TAN_NV", "", 55250, { "life_donorlevel", "SCALAR", 1 } }
+            { "G_Lady_Blue", "", 8500, { "life_donorlevel", "SCALAR", 1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -822,15 +796,7 @@ class Clothing {
             { "G_Lowprofile", "", 2125, { "life_donorlevel", "SCALAR", 1 } },
             { "G_Tactical_Black", "", 2125, { "life_donorlevel", "SCALAR", 1 } },
             { "G_Tactical_Clear", "", 2125, { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Spectacles_Tinted", "", 2125, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_balaclava_BLACK_NV", "", 38250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_balaclava_NV", "", 38250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_balaclava_BLACK_EAR_NV", "", 38250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_balaclava_EAR_NV", "", 38250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_G_bala_ess_NV", "", 38250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_US_ESS_Glasses_NV", "", 38250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_ESS_BLKTAN_NV", "", 38250, { "life_donorlevel", "SCALAR", 1 } },
-            { "TRYK_US_ESS_Glasses_TAN_NV", "", 38250, { "life_donorlevel", "SCALAR", 1 } }
+            { "G_Spectacles_Tinted", "", 2125, { "life_donorlevel", "SCALAR", 1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -1094,15 +1060,7 @@ class Clothing {
             { "G_Combat", "", 7500, { "life_donorlevel", "SCALAR", 2 } },
             { "G_Lady_Mirror", "", 7500, { "life_donorlevel", "SCALAR", 2 } },
             { "G_Lady_Dark", "", 7500, { "life_donorlevel", "SCALAR", 2 } },
-            { "G_Lady_Blue", "", 7500, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_balaclava_BLACK_NV", "", 48750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_balaclava_NV", "", 48750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_balaclava_BLACK_EAR_NV", "", 48750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_balaclava_EAR_NV", "", 48750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_G_bala_ess_NV", "", 48750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_US_ESS_Glasses_NV", "", 48750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_ESS_BLKTAN_NV", "", 48750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_US_ESS_Glasses_TAN_NV", "", 48750, { "life_donorlevel", "SCALAR", 2 } }
+            { "G_Lady_Blue", "", 7500, { "life_donorlevel", "SCALAR", 2 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -1408,15 +1366,7 @@ class Clothing {
             { "G_Lowprofile", "", 1875, { "life_donorlevel", "SCALAR", 2 } },
             { "G_Tactical_Black", "", 1875, { "life_donorlevel", "SCALAR", 2 } },
             { "G_Tactical_Clear", "", 1875, { "life_donorlevel", "SCALAR", 2 } },
-            { "G_Spectacles_Tinted", "", 1875, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_balaclava_BLACK_NV", "", 33750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_balaclava_NV", "", 33750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_balaclava_BLACK_EAR_NV", "", 33750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_balaclava_EAR_NV", "", 33750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_G_bala_ess_NV", "", 33750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_US_ESS_Glasses_NV", "", 33750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_ESS_BLKTAN_NV", "", 33750, { "life_donorlevel", "SCALAR", 2 } },
-            { "TRYK_US_ESS_Glasses_TAN_NV", "", 33750, { "life_donorlevel", "SCALAR", 2 } }
+            { "G_Spectacles_Tinted", "", 1875, { "life_donorlevel", "SCALAR", 2 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -1680,16 +1630,7 @@ class Clothing {
             { "G_Combat", "", 5000, { "life_donorlevel", "SCALAR", 3 } },
             { "G_Lady_Mirror", "", 5000, { "life_donorlevel", "SCALAR", 3 } },
             { "G_Lady_Dark", "", 5000, { "life_donorlevel", "SCALAR", 3 } },
-            { "G_Lady_Blue", "", 5000, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_balaclava_BLACK_NV", "", 32500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_balaclava_NV", "", 32500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_balaclava_BLACK_EAR_NV", "", 32500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_balaclava_EAR_NV", "", 32500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_G_bala_ess_NV", "", 32500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_US_ESS_Glasses_NV", "", 32500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_ESS_BLKTAN_NV", "", 32500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_US_ESS_Glasses_TAN_NV", "", 32500, { "life_donorlevel", "SCALAR", 3 } }
-
+            { "G_Lady_Blue", "", 5000, { "life_donorlevel", "SCALAR", 3 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -1995,15 +1936,7 @@ class Clothing {
             { "G_Lowprofile", "", 1250, { "life_donorlevel", "SCALAR", 3 } },
             { "G_Tactical_Black", "", 1250, { "life_donorlevel", "SCALAR", 3 } },
             { "G_Tactical_Clear", "", 1250, { "life_donorlevel", "SCALAR", 3 } },
-            { "G_Spectacles_Tinted", "", 1250, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_balaclava_BLACK_NV", "", 22500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_balaclava_NV", "", 22500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_balaclava_BLACK_EAR_NV", "", 22500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_balaclava_EAR_NV", "", 22500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_G_bala_ess_NV", "", 22500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_US_ESS_Glasses_NV", "", 22500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_ESS_BLKTAN_NV", "", 22500, { "life_donorlevel", "SCALAR", 3 } },
-            { "TRYK_US_ESS_Glasses_TAN_NV", "", 22500, { "life_donorlevel", "SCALAR", 3 } }
+            { "G_Spectacles_Tinted", "", 1250, { "life_donorlevel", "SCALAR", 3 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
